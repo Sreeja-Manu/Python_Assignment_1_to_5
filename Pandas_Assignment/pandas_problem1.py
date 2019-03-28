@@ -67,7 +67,7 @@ BD2=BD.copy()
 sum_of_s=BD2[BD2.Day=="Wednesday"].s.sum()
 sum_of_s
 
-# Qn.3.Average for each calendar month
+# Qn.4.Average for each calendar month
 
 
 BD.resample('M').mean() #finding the average for each month in 2015
